@@ -43,8 +43,8 @@ public class HttpConnection{
             URL url = new URL(this.url);
             HttpURLConnection conn = (HttpURLConnection)
                     url.openConnection();
-            conn.setReadTimeout(10000 /* milliseconds */);
-            conn.setConnectTimeout(15000 /* milliseconds */);
+            /*conn.setReadTimeout(10000);
+            conn.setConnectTimeout(15000);*/
             conn.setRequestMethod("GET");
             conn.setDoInput(true);
             conn.connect();

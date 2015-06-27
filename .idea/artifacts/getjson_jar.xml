@@ -2,7 +2,7 @@
   <artifact type="jar" name="getjson:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/getjson_jar</output-path>
     <root id="archive" name="getjson.jar">
-      <element id="module-output" name="getjson" />
+      <element id="module-output" name="getjson_outland" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libs/gson-2.3.1.jar" path-in-jar="/" />
     </root>
   </artifact>

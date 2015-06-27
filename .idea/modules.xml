@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/getjson.iml" filepath="$PROJECT_DIR$/getjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getjson_outland.iml" filepath="$PROJECT_DIR$/getjson_outland.iml" />
     </modules>
   </component>
 </project>
-

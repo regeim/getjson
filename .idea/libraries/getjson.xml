@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="getjson">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/getjson_jar/getjson.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

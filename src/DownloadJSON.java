@@ -7,6 +7,8 @@
  */
 import java.io.*;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import com.google.gson.stream.JsonReader;
@@ -19,8 +21,9 @@ public class DownloadJSON {
         HttpConnection main_Http;
         String url="http://eu.battle.net/api/wow/auction/data/outland";
         List<String> auction_url=null;
+        String fileName = new SimpleDateFormat("yyyyMMddhhmm'.txt'").format(new Date());
 
-        File file = new File("c:\\results\\results.txt");
+        File file = new File("c:\\hello\\results_outland.txt");
          //The file that you want to download
 
         InputStream inputStream;
