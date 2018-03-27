@@ -24,7 +24,7 @@ public class DownloadJSON {
         String fileName = new SimpleDateFormat("yyyyMMddhhmm'.txt'").format(new Date());
 
         File file = new File("c:\\hello\\results_outland.txt");
-         //The file that you want to download there4
+         //The file that you want to download there6
 
         InputStream inputStream;
 
